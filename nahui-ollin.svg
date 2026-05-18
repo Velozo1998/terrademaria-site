@@ -1,0 +1,20 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#C8A96A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Diamante central -->
+  <path d="M50,44 L56,50 L50,56 L44,50 Z"/>
+  <!-- Pétala topo -->
+  <path d="M44,44 C44,37 46,28 50,20 C54,28 56,37 56,44"/>
+  <!-- Pétala baixo -->
+  <path d="M44,56 C44,63 46,72 50,80 C54,72 56,63 56,56"/>
+  <!-- Pétala esquerda -->
+  <path d="M44,44 C37,44 28,46 20,50 C28,54 37,56 44,56"/>
+  <!-- Pétala direita -->
+  <path d="M56,44 C63,44 72,46 80,50 C72,54 63,56 56,56"/>
+  <!-- Canto superior esquerdo -->
+  <path d="M39,30 L29,30 L29,40"/>
+  <!-- Canto superior direito -->
+  <path d="M61,30 L71,30 L71,40"/>
+  <!-- Canto inferior esquerdo -->
+  <path d="M39,70 L29,70 L29,60"/>
+  <!-- Canto inferior direito -->
+  <path d="M61,70 L71,70 L71,60"/>
+</svg>
