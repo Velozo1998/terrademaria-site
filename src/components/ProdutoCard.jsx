@@ -15,7 +15,7 @@ export default function ProdutoCard({ produto }) {
       <div className="produto-card-body">
         <p className="produto-card-cat">{produto.categoria_site}</p>
         <h3 className="produto-card-nome">{produto.nome}</h3>
-        {produto.preco && <p className="produto-card-preco">{formatarPreco(produto.preco)}</p>}
+        {produto.preco_venda_venda && <p className="produto-card-preco">{formatarPreco(produto.preco_venda_venda)}</p>}
       </div>
     </Link>
   )

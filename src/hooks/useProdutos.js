@@ -13,7 +13,7 @@ export function useProdutos({ categoria, busca, apenasDestaques } = {}) {
       setErro(null)
       let query = supabase
         .from('produtos')
-        .select('id, nome, slug, preco, codigo, categoria_site, ordem_site, imagens_publicas, destaque, descricao_publica')
+        .select('id, nome, slug, preco_venda, categoria_site, ordem_site, imagens_publicas, destaque, descricao_publica')
         .eq('publicar_site', true)
         .order('ordem_site', { ascending: true })
       if (categoria && categoria !== 'Todos') query = query.eq('categoria_site', categoria)

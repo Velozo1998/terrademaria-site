@@ -8,7 +8,7 @@ const EMOJIS = {
 export function gerarLinkWhats(produto) {
   const url = `${SITE_URL}/produto/${produto.slug}`
   const emoji = EMOJIS[produto.categoria_site] || '🕊️'
-  const codigo = produto.codigo ? ` (#${produto.codigo})` : ''
+  const codigo = produto.id ? ` (#${produto.id})` : ''
   const texto = encodeURIComponent(
     `Olá! Vim pelo site terrademaria.com.br\n` +
     `Quero saber mais sobre:\n\n` +
